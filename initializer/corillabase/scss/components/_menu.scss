@@ -1,0 +1,53 @@
+.navbar {
+  @extend .navbar-expand-lg;
+  @include media-breakpoint-up (lg) {
+    display: block;
+  }
+  .menu {
+    margin-left: 0;
+    .menu-item {
+      padding-top: 0;
+      list-style: none;
+      > * {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.navbar-toggler {
+  display: inline-block;
+  outline: none;
+  border: 0;
+  padding: 0;
+  &:focus {
+    outline: none;
+  }
+  &.is-toggled {
+    .icon-bar {
+      &:nth-child(2) {
+        top: 7px;
+        transform: rotate(45deg);
+      }
+      &:nth-child(3) {
+        opacity: 0;
+      }
+      &:nth-child(4) {
+        top: -7px;
+        transform: rotate(-45deg);
+
+      }
+    }
+  }
+  .icon-bar {
+    position: relative;
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    transition: 0.4s all ease;
+    + .icon-bar {
+      margin-top: 4px;
+    }
+  }
+}

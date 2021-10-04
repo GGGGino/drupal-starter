@@ -1,0 +1,11 @@
+uuid: ba1db6ad-548c-44e4-a508-048359f87ed7
+langcode: it
+status: true
+dependencies:
+  config:
+    - node.type.pagina_base
+id: node.pagina_base
+target_entity_type_id: node
+target_bundle: pagina_base
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,14 @@
+uuid: 63429fbc-7f89-4235-a4c6-d43704e4339a
+langcode: it
+status: true
+dependencies:
+  config:
+    - node.type.slide_header
+id: node_type_slide_header
+entity_type_id: node_type
+entity_id: slide_header
+action: page_not_found
+allow_override: 1
+redirect: ''
+redirect_code: 301
+redirect_fallback_action: access_denied

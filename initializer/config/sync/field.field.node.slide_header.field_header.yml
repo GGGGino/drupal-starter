@@ -1,0 +1,28 @@
+uuid: 7e5c1bae-ceb0-46c5-8276-22838851d32b
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_header
+    - media.type.immagine
+    - node.type.slide_header
+id: node.slide_header.field_header
+field_name: field_header
+entity_type: node
+bundle: slide_header
+label: Header
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      immagine: immagine
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

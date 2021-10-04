@@ -1,0 +1,13 @@
+uuid: 71218e12-e07c-44cf-ade6-b3ac12107197
+langcode: it
+status: true
+dependencies: {  }
+id: db_giornaliero
+label: 'DB - Giornaliero'
+enabled: false
+keep: 28
+period: 86400
+cron: null
+source_id: default_db
+destination_id: private_files
+settings_profile_id: null

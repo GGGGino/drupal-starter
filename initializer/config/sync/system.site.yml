@@ -1,0 +1,15 @@
+name: 'Profilo Drupal 8'
+mail: developers@corilla.it
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100
+langcode: it
+default_langcode: it
+_core:
+  default_config_hash: ifiqMc7fmULnlXhbuKRu6Yd3iSvb3rWHYWWUZK7dw5Q
+uuid: 3efc7e57-8efc-45ec-926c-b039880c437f
+mail_notification: ''

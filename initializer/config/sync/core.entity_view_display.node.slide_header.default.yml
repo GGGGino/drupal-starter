@@ -1,0 +1,56 @@
+uuid: c345ab9a-cb83-4d99-b5e4-428250848634
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.field.node.slide_header.field_header
+    - field.field.node.slide_header.field_link
+    - field.field.node.slide_header.field_ordine
+    - field.field.node.slide_header.field_sommario
+    - node.type.slide_header
+  module:
+    - link
+    - media
+    - text
+    - user
+id: node.slide_header.default
+targetEntityType: node
+bundle: slide_header
+mode: default
+content:
+  field_header:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: media_thumbnail
+    region: content
+  field_link:
+    weight: 3
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_sommario:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_ordine: true
+  langcode: true

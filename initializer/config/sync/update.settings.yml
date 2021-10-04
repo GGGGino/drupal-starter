@@ -1,0 +1,14 @@
+check:
+  disabled_extensions: false
+  interval_days: 1
+fetch:
+  url: ''
+  max_attempts: 2
+  timeout: 30
+notification:
+  emails:
+    - developers@corilla.it
+  threshold: security
+langcode: it
+_core:
+  default_config_hash: LKMBHTVFUGyNZnibg9Wzv6DV-tTd_iZ0ugADOvsVnqo

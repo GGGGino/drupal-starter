@@ -1,0 +1,14 @@
+uuid: 0e0fe44a-fc46-4452-bf47-99102d3d28da
+langcode: it
+status: true
+dependencies:
+  module:
+    - node
+id: contenuto
+label: Contenuto
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

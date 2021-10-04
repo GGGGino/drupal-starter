@@ -1,0 +1,31 @@
+uuid: c0ee684f-9572-415c-81f5-d584d41f23c4
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_contenuto
+    - node.type.pagina_base
+    - paragraphs.paragraphs_type.testo_immagine_gallery
+  module:
+    - entity_reference_revisions
+id: node.pagina_base.field_contenuto
+field_name: field_contenuto
+entity_type: node
+bundle: pagina_base
+label: Contenuto
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      testo_immagine_gallery: testo_immagine_gallery
+    target_bundles_drag_drop:
+      testo_immagine_gallery:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

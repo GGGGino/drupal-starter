@@ -1,0 +1,22 @@
+uuid: 5f5327a7-f4e9-4ce5-a237-b6a6f2fc252c
+langcode: it
+status: true
+dependencies:
+  theme:
+    - bartik
+_core:
+  default_config_hash: gzlX9J4Zel1vd7kgJXZNLHHjhIqsmdJcAbHTNEnMTk4
+id: bartik_local_tasks
+theme: bartik
+region: content
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Schede
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

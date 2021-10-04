@@ -1,0 +1,43 @@
+uuid: dd3fb486-4556-4047-bf28-8bd0e552be18
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.testo_immagine_gallery.field_gallery
+    - field.field.paragraph.testo_immagine_gallery.field_immagine
+    - field.field.paragraph.testo_immagine_gallery.field_testo
+    - paragraphs.paragraphs_type.testo_immagine_gallery
+  module:
+    - media
+    - text
+id: paragraph.testo_immagine_gallery.default
+targetEntityType: paragraph
+bundle: testo_immagine_gallery
+mode: default
+content:
+  field_gallery:
+    type: media_thumbnail
+    weight: 2
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    region: content
+  field_immagine:
+    type: media_thumbnail
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    region: content
+  field_testo:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

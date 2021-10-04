@@ -1,0 +1,13 @@
+uuid: 64c02461-42ca-4c58-aa74-2b16350d2975
+langcode: it
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: OsSC5wFCsp10cPtZCVs4btkK1az_AsN9jdZR0s_GJOo
+id: user_block_user_action
+label: 'Bloccare gli utenti selezionati'
+type: user
+plugin: user_block_user_action
+configuration: {  }

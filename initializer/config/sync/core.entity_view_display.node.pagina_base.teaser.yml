@@ -1,0 +1,27 @@
+uuid: e95717a8-32c9-429b-8f25-879ed3b970bb
+langcode: it
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.pagina_base.field_contenuto
+    - field.field.node.pagina_base.field_header
+    - field.field.node.pagina_base.field_metatag
+    - node.type.pagina_base
+  module:
+    - user
+id: node.pagina_base.teaser
+targetEntityType: node
+bundle: pagina_base
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_contenuto: true
+  field_header: true
+  field_metatag: true
+  langcode: true

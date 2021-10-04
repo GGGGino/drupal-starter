@@ -1,0 +1,21 @@
+uuid: 2579978d-5eaf-44e2-b376-6218ebe60c9b
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sommario
+    - node.type.slide_header
+  module:
+    - text
+id: node.slide_header.field_sommario
+field_name: field_sommario
+entity_type: node
+bundle: slide_header
+label: Sommario
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

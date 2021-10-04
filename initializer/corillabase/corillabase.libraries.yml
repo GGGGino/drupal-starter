@@ -1,0 +1,14 @@
+framework:
+  css:
+    theme:
+      css/style.css: {}
+  js:
+    js/popper/umd/popper.min.js: {}
+    bootstrap/dist/js/bootstrap.min.js: {}
+    js/corillabase.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal.ajax
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery.once

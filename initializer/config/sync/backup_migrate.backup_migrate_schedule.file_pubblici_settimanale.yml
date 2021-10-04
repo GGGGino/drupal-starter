@@ -1,0 +1,13 @@
+uuid: 50839c66-99b6-48be-888e-45cb1e29c5b6
+langcode: it
+status: true
+dependencies: {  }
+id: file_pubblici_settimanale
+label: 'File pubblici - Settimanale'
+enabled: false
+keep: 4
+period: 604800
+cron: null
+source_id: default_db
+destination_id: private_files
+settings_profile_id: null

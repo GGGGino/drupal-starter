@@ -1,0 +1,10 @@
+uuid: 5822ce0c-54ba-406e-976f-4d5ee11a79d1
+langcode: it
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: VIe8nDHdMaSsieaarfPwKOHtd7zJNXWLxhbq-6NdgvM
+id: basic
+label: 'Blocco base'
+revision: 0
+description: 'Un blocco di base contiene un titolo e un corpo.'

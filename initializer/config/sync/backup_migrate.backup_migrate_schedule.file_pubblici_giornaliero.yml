@@ -1,0 +1,13 @@
+uuid: f97bff1b-665c-4af4-8449-e07e06440867
+langcode: it
+status: true
+dependencies: {  }
+id: file_pubblici_giornaliero
+label: 'File pubblici - Giornaliero'
+enabled: false
+keep: 4
+period: 86400
+cron: null
+source_id: default_db
+destination_id: private_files
+settings_profile_id: null

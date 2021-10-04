@@ -1,0 +1,5 @@
+fallback_format: plain_text
+always_show_fallback_choice: false
+langcode: it
+_core:
+  default_config_hash: 5fpMXNPThZ1SIPEYlgJC86okTvjO1gsXZ2JfrufE8DM

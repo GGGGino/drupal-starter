@@ -1,0 +1,29 @@
+uuid: d1eaf2c8-da16-445e-ab43-ff7008ccce99
+langcode: it
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.slide_header.field_header
+    - field.field.node.slide_header.field_link
+    - field.field.node.slide_header.field_ordine
+    - field.field.node.slide_header.field_sommario
+    - node.type.slide_header
+  module:
+    - user
+id: node.slide_header.teaser
+targetEntityType: node
+bundle: slide_header
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_header: true
+  field_link: true
+  field_ordine: true
+  field_sommario: true
+  langcode: true

@@ -1,0 +1,23 @@
+uuid: 41b4ddad-e8ea-441b-83bb-6f38ab9af8d7
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ordine
+    - node.type.slide_header
+id: node.slide_header.field_ordine
+field_name: field_ordine
+entity_type: node
+bundle: slide_header
+label: Ordine
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

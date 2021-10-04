@@ -1,0 +1,11 @@
+uuid: 25ef805f-165c-4918-993f-271d260e7ad4
+langcode: it
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: p6A78-axdnHPUKHQ6aOIr6WJw0k2S_77SS_5Ql965P4
+id: und
+label: 'Non specificato.'
+direction: ltr
+weight: 2
+locked: true

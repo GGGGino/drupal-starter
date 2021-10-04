@@ -1,0 +1,28 @@
+uuid: 1d383c93-9b2a-4ff6-a1ee-fefea931f807
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_header
+    - media.type.immagine
+    - node.type.pagina_base
+id: node.pagina_base.field_header
+field_name: field_header
+entity_type: node
+bundle: pagina_base
+label: Header
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      immagine: immagine
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

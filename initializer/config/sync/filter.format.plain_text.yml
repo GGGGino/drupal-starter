@@ -1,0 +1,29 @@
+uuid: b2cfb59f-7c96-4b8c-af5c-77995f1fb15f
+langcode: it
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: reRP1wnypkb94VZ6517pV3F3etl7iGnjycdf2KA7vHI
+name: 'Testo semplice'
+format: plain_text
+weight: -7
+filters:
+  filter_html_escape:
+    id: filter_html_escape
+    provider: filter
+    status: true
+    weight: -10
+    settings: {  }
+  filter_url:
+    id: filter_url
+    provider: filter
+    status: true
+    weight: 0
+    settings:
+      filter_url_length: 72
+  filter_autop:
+    id: filter_autop
+    provider: filter
+    status: true
+    weight: 0
+    settings: {  }

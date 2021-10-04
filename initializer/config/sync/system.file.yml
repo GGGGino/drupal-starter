@@ -1,0 +1,8 @@
+allow_insecure_uploads: false
+default_scheme: public
+path:
+  temporary: ../tmp
+temporary_maximum_age: 21600
+langcode: it
+_core:
+  default_config_hash: Uy-poJrycU-ybj75j2vVuSd7yCEaof9oHUi4-VlYrl0

@@ -1,0 +1,10 @@
+uuid: 5dc9cc7f-3197-4a8d-b0a2-0735432e2d3c
+langcode: it
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 5TiiVo59xXWZdMwAuAynp_Yh7qlwJsPRl4N7j9zHTbw
+id: html_week
+label: 'Settimana HTML'
+locked: true
+pattern: Y-\WW

@@ -1,0 +1,6 @@
+header,
+main,
+footer {
+  //@extend .container-fluid;
+  @extend .container;
+}

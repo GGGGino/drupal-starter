@@ -1,0 +1,10 @@
+uuid: 83f8cd96-136d-4387-b227-f2ee57f87dae
+langcode: it
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: W9Z3PGx82SieaisfAy-253j4A4ujEqPgCkg3ye2yK90
+id: short
+label: 'Formato predefinito data corta'
+locked: false
+pattern: 'd/m/Y - H:i'

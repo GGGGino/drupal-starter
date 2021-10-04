@@ -1,0 +1,6 @@
+name: Corilla Base - Mod
+description: Modulo base di Corilla.
+package: Custom
+
+type: module
+core: 8.x

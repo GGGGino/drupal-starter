@@ -1,0 +1,13 @@
+uuid: 14cf9fb8-ce6a-43cb-aeba-92fb3220333e
+langcode: it
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: NIG_zuZsAENP_yu_au5H0D1w_9b1MBVR4d5FC5rDGk4
+id: node_unpublish_action
+label: 'Rimuovere contenuto dalla pubblicazione'
+type: node
+plugin: 'entity:unpublish_action:node'
+configuration: {  }

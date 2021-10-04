@@ -1,0 +1,28 @@
+uuid: a682ae96-bd7a-4f51-919f-d52cde111829
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_gallery
+    - media.type.immagine
+    - paragraphs.paragraphs_type.testo_immagine_gallery
+id: paragraph.testo_immagine_gallery.field_gallery
+field_name: field_gallery
+entity_type: paragraph
+bundle: testo_immagine_gallery
+label: Gallery
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      immagine: immagine
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference
