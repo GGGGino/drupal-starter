@@ -1,7 +1,7 @@
 name: Corilla Profile
 type: profile
 description: 'Profilo base di installazione Corilla.'
-core: 8.x
+core_version_requirement: ^8 || ^9
 
 # Optional: Declare your installation profile as a distribution
 # This will make the installer auto-select this installation profile.
