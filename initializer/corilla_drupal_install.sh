@@ -1,7 +1,10 @@
 #!/bin/bash
 
+# Here I get the path where the files are stored
 scriptPath=$( dirname $(realpath "$0") )
-htmlPath="/root/pippo"
+
+# Here is the path
+htmlPath=$(pwd)
 
 cd $scriptPath
 
@@ -12,8 +15,10 @@ source include/composer.sh
 source include/git.sh
 source include/database.sh
 source include/install.sh
-#source include/corillatheme.sh
-#source include/childtheme.sh
+# source include/corillatheme.sh
+# source include/childtheme.sh
 source include/themes.sh
 source include/update.sh
-source include/cleanup.sh
+# source include/cleanup.sh
+
+# ciaool

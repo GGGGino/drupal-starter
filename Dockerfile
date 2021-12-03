@@ -1,8 +1,5 @@
 FROM wodby/drupal-php:7.4-4.19.3
 
-# RUN a2enmod rewrite
-# RUN a2enmod ssl
-
 # install the PHP extensions we need
 #RUN apt-get update \
 #  && apt-get install -y \
@@ -19,8 +16,6 @@ RUN composer global require drush/drush \
 WORKDIR /var/www/html
 
 COPY ./initializer /root/initializer
-COPY ./ssl.crt /etc/apache2/ssl/
-COPY ./ssl.key /etc/apache2/ssl/
 
 RUN ln -s /root/initializer/corilla_drupal_install.sh /usr/local/bin/codruin
 

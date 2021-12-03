@@ -15,14 +15,14 @@ mkdir "${htmlPath}"/tmp
 #mkdir -p "${htmlPath}"/config/sync
 
 # Creo le librerie.
-cp libraries "${htmlPath}"/web
+cp -r libraries "${htmlPath}"/web
 
 # Lancio l'installazione tramite Drush.
 "${htmlPath}"/vendor/bin/drush si \
 corillaprofile \
 install_configure_form.enable_update_status_emails=NULL \
 --locale=it \
---db-url=mysql://"${mysql_user_name}":"${mysql_user_pass}"@mysql:3306/"${mysql_database_name}" \
+--db-url=mysql://"${mysql_user_name}":"${mysql_user_pass}"@${mysql_host}:3306/"${mysql_database_name}" \
 --site-name="${drush_sito_nome}" \
 --site-mail="${drush_sito_email}" \
 --account-name="${drush_admin_nome}" \

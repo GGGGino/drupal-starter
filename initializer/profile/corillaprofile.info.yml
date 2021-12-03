@@ -38,9 +38,9 @@ install:
   - big_pipe
   - blazy
   - block
-  - block_access
+  # - block_access
   - block_content
-  - block_content_machine_name
+  # - block_content_machine_name
   - breakpoint
   - ckeditor
   - color
@@ -64,7 +64,7 @@ install:
   - language
   - link
   - locale
-  - machine_name_widget
+  # - machine_name_widget
   - mailsystem
   - media
   - media_library
@@ -80,12 +80,12 @@ install:
   - path
   - path_alias
   - quickedit
-  - rabbit_hole
+  # - rabbit_hole
   - rdf
   - redirect
-  - rh_media
-  - rh_node
-  - rh_taxonomy
+  # - rh_media
+  # - rh_node
+  # - rh_taxonomy
   - search
   - shortcut
   - simple_sitemap
