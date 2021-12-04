@@ -4,9 +4,9 @@ echo "${tema_nome}"
 
 # Sposto i file del tema base di Corilla all'interno del progetto.
 mkdir -p "${htmlPath}"/web/themes/custom
-cp -r corillabase "${htmlPath}"/web/themes/custom/"${tema_nome}"
-cp -r libraries "${htmlPath}"/web/libraries
-cp -r custom "${htmlPath}"/web/modules/custom
+cp -r base/corillabase "${htmlPath}"/web/themes/custom/"${tema_nome}"
+cp -r libraries/* "${htmlPath}"/web/libraries
+cp -r modules/* "${htmlPath}"/web/modules
 
 # Rinomino i file e i contenuti, dove necessario.
 sed -i "s/corillabase/${tema_nome}/g" "${htmlPath}"/web/themes/custom/"${tema_nome}"/config/schema/corillabase.schema.yml

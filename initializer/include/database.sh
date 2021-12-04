@@ -1,7 +1,7 @@
 # Database: creo utente e db.
 echo "Creazione database..."
 
-mysql -h${mysql_host} -uroot -p${mysql_root_pass} -e "CREATE DATABASE ${mysql_database_name};"
+mysql -h${mysql_host} -uroot -p${mysql_root_pass} -e "CREATE DATABASE IF NOT EXISTS ${mysql_database_name};"
 
 if [ "${mysql_user_name}" == "" ]; then
 mysql_user_name="root"

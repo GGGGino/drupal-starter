@@ -3,7 +3,7 @@ echo "Inizio installazione del sito..."
 # Creo la cartella di config e vi sposto i file di configurazione, ripuliti.
 mkdir -p "${htmlPath}"/web/profiles/corillaprofile/config/install
 cp -r profile/* "${htmlPath}"/web/profiles/corillaprofile/.
-cp -r config/sync/* "${htmlPath}"/web/profiles/corillaprofile/config/install/.
+cp -r profile/config/sync/* "${htmlPath}"/web/profiles/corillaprofile/config/install/.
 find "${htmlPath}"/web/profiles/corillaprofile/config/install/ -type f -exec sed -i -e '/^uuid: /d' {} \;
 find "${htmlPath}"/web/profiles/corillaprofile/config/install/ -type f -exec sed -i -e '/_core:/,+1d' {} \;
 
