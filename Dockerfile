@@ -15,9 +15,9 @@ RUN composer global require drush/drush \
 
 WORKDIR /var/www/html
 
-COPY ./initializer /root/initializer
+COPY --chown=wodby:wodby ./initializer /var/www/initializer
 
-RUN ln -s /root/initializer/corilla_drupal_install.sh /usr/local/bin/codruin
+RUN ln -s /var/www/initializer/corilla_drupal_install.sh /usr/local/bin/codruin
 
 # https://www.drupal.org/node/3060/release
 # ENV DRUPAL_VERSION 9.2
