@@ -1,0 +1,7 @@
+header,
+main,
+footer {
+  //@extend .container-fluid;
+  @extend .container;
+  border: 1px solid red;
+}
