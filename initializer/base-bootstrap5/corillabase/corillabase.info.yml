@@ -2,8 +2,8 @@ type: theme
 base theme: classy
 core_version_requirement: ^8 || ^9
 
-name: 'mio'
-description: 'Tema custom per mio.'
+name: 'Corilla Base'
+description: 'Tema custom per Corilla Base.'
 package: 'Bootstrap'
 
 regions:
@@ -16,4 +16,4 @@ regions:
   footer: 'Footer'
 
 libraries:
-  - mio/framework
+  - corillabase/framework
