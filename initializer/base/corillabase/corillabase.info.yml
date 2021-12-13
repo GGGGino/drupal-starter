@@ -1,0 +1,19 @@
+type: theme
+base theme: classy
+core_version_requirement: ^8 || ^9
+
+name: 'Corilla Base'
+description: 'Tema custom per Corilla Base.'
+package: 'Bootstrap'
+
+regions:
+  top_bar: 'Top bar'
+  header: 'Header'
+  primary_menu: 'Menù principale'
+  breadcrumb: 'Breadcrumb'
+  content: 'Content'
+  pre_footer: 'Pre-footer'
+  footer: 'Footer'
+
+libraries:
+  - corillabase/framework

@@ -11,7 +11,7 @@ cp -r "${htmlPath}"/web/themes/contrib/bootstrap/starterkits/sass/* "${htmlPath}
 
 # Recupero Bootstrap (framework).
 wget https://github.com/twbs/bootstrap-sass/archive/v3.4.1.tar.gz
-tar  -xzf v3.4.1.tar.gz
+tar -xzf v3.4.1.tar.gz
 mv bootstrap-sass-3.4.1 bootstrap
 mv bootstrap "${htmlPath}"/web/themes/custom/"${tema_corilla_nome}"
 rm v3.4.1.tar.gz
