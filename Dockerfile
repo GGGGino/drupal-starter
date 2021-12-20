@@ -15,6 +15,8 @@ RUN composer global require drush/drush \
 
 WORKDIR /var/www/html
 
+USER wodby:www-data
+
 COPY --chown=wodby:wodby ./initializer /var/www/initializer
 
 RUN ln -s /var/www/initializer/corilla_drupal_install.sh /usr/local/bin/codruin
