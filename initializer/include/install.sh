@@ -14,9 +14,6 @@ mkdir "${htmlPath}"/tmp
 # Creo la cartella di configurazione.
 #mkdir -p "${htmlPath}"/config/sync
 
-# Creo le librerie.
-cp -r base/libraries "${htmlPath}"/web
-
 # Lancio l'installazione tramite Drush.
 "${htmlPath}"/vendor/bin/drush si \
 corillaprofile \

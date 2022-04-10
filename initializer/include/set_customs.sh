@@ -8,5 +8,6 @@ mkdir -p "${htmlPath}"/web/modules/custom
 
 cp -r "${startingFolder}/themes" "${htmlPath}"/web/themes/custom
 cp -r "${startingFolder}/modules" "${htmlPath}"/web/modules/custom
+cp -r "${startingFolder}/libraries" "${htmlPath}"/web
 
 echo "Fine configurazione tema."

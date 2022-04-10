@@ -10,28 +10,7 @@ fi
 # composer --working-dir="${htmlPath}" remove drupal/core-project-message
 
 # Richiedo i moduli.
-composer --working-dir="${htmlPath}" require \
-drupal/admin_toolbar \
-drupal/advagg \
-drupal/antibot \
-drupal/console \
-drupal/backup_migrate \
-drupal/editor_file \
-drupal/honeypot \
-drupal/menu_link_attributes \
-drupal/metatag \
-drupal/minifyhtml \
-drupal/paragraphs \
-drupal/pathauto \
-drupal/redirect \
-drupal/simple_sitemap \
-drupal/slick_views \
-drupal/svg_image \
-drupal/swiftmailer \
-drupal/twig_tweak \
-drupal/token \
-drupal/webform \
-drush/drush
+composer --working-dir="${htmlPath}" require $DRUPAL_DEPS
 
 # drupal/block_access \
 # drupal/rabbit_hole \
