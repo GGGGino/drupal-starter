@@ -1,4 +1,4 @@
-FROM wodby/drupal-php:7.4-4.33.3
+FROM wodby/drupal-php:8.0-4.35.0
 
 # install the PHP extensions we need
 #RUN apt-get update \
@@ -16,7 +16,7 @@ WORKDIR /var/www/html
 
 USER wodby:www-data
 
-COPY --chown=wodby:wodby ./initializer /var/www/initializer
+COPY --chown=wodby:wodby ../initializer /var/www/initializer
 
 RUN ln -s /var/www/initializer/corilla_drupal_install.sh /usr/local/bin/codruin
 
