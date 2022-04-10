@@ -1,9 +1,0 @@
-uuid: ed80e039-e6e2-4f81-a382-88f852a5eb65
-langcode: it
-status: true
-dependencies: {  }
-id: testo_immagine_gallery
-label: 'Testo, immagine, gallery'
-icon_uuid: null
-description: ''
-behavior_plugins: {  }
