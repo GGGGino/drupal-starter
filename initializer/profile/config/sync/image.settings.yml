@@ -1,6 +1,0 @@
-preview_image: core/modules/image/sample.png
-allow_insecure_derivatives: false
-suppress_itok_output: false
-langcode: it
-_core:
-  default_config_hash: Z8DCONq66R_nXR8AAvdOuf-tKibghP0UtpC-_2NYpZs

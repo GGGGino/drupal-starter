@@ -1,7 +1,0 @@
-corillabase_mod.test:
-  path: '/api/test'
-  defaults:
-    _controller: '\Drupal\corillabase_mod\Controller\Test::test'
-    _title: 'Test'
-  requirements:
-    _role: 'administrator'
